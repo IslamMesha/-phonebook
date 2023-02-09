@@ -1,0 +1,45 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="170" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="pfe-electron-event" />
+            <item index="1" class="java.lang.String" itemvalue="pfe-electron-chalice" />
+            <item index="2" class="java.lang.String" itemvalue="pfe-electron-useful-stuff" />
+            <item index="3" class="java.lang.String" itemvalue="pfe-electron-logger" />
+            <item index="4" class="java.lang.String" itemvalue="pfe-electron-quickauth" />
+            <item index="5" class="java.lang.String" itemvalue="pfe-electron-flake8" />
+            <item index="6" class="java.lang.String" itemvalue="pfe-electron-action" />
+            <item index="7" class="java.lang.String" itemvalue="pfe-biblio-client" />
+            <item index="8" class="java.lang.String" itemvalue="pfe-electron-config" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="graphene.types.structures.List.values_list" />
+          <option value="graphene.types.scalars.String.get_full_name" />
+          <option value="type.objects" />
+          <option value="saleor.plugins.base_plugin.BasePlugin.dashboard_url" />
+          <option value="django.db.models.base.Model.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
